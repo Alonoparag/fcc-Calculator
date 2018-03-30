@@ -1,0 +1,313 @@
+body {
+  font-weight: bolder;
+  background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%, rgba(11, 68, 48, 0.86) 46%, rgba(125, 185, 232, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%, rgba(11, 68, 48, 0.86) 46%, rgba(125, 185, 232, 1) 100%);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(11, 68, 48, 0.86) 46%, rgba(125, 185, 232, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7db9e8', GradientType=1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#logoBox {
+  position: absolute;
+  left: 5.41%;
+  right: 5.41%;
+  top: 2.5%;
+  bottom: 88.52%;
+}
+
+#logo {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  top: 25px;
+  font-family: 'Black Ops One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: rgb(76, 76, 76);
+  background: -moz-linear-gradient(-45deg, rgba(76, 76, 76, 1) 0%, rgba(22, 22, 22, 1) 12%, rgba(93, 130, 97, 1) 39%, rgba(74, 84, 69, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(76, 76, 76, 1) 0%, rgba(22, 22, 22, 1) 12%, rgba(93, 130, 97, 1) 39%, rgba(74, 84, 69, 1) 100%);
+  background: linear-gradient(135deg, rgba(76, 76, 76, 1) 0%, rgba(22, 22, 22, 1) 12%, rgba(93, 130, 97, 1) 39%, rgba(74, 84, 69, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4a5445', GradientType=1);
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#calculator {
+  position: relative;
+  top: 100px;
+  width: 328px;
+  height: 543px;
+  background: #A69C9C;
+  border-radius: 30px;
+  border-color: rgba(120, 120, 120, 0.7);
+  border-width: 3px;
+  border-style: solid;
+}
+
+/* ===============Display */
+
+#display {
+  position: absolute;
+  left: 5.41%;
+  right: 5.41%;
+  top: 13.48%;
+  bottom: 70.87%;
+  background: #E3CD96;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#entry {
+  font-family: 'Black Ops One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+#history {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  text-align: right;
+  font-family: 'Black Ops One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.42);
+}
+
+/* =============BUTTONS */
+
+.button {
+  width: 58.51px;
+  height: 59.64px;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+#zero {
+  font-weight: 900;
+  font-size: 1.2em;
+  position: absolute;
+  left: 5.41%;
+  right: 52.97%;
+  top: 86.52%;
+  bottom: 2.5%;
+  width: 136.52px;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#calculate {
+  font-weight: 900;
+  font-size: 1.2em;
+  position: absolute;
+  left: 76.76%;
+  right: 5.41%;
+  top: 72.79%;
+  bottom: 2.5%;
+  width: 58.51px;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#decimal {
+  position: absolute;
+  left: 52.97%;
+  right: 29.19%;
+  top: 86.52%;
+  bottom: 2.5%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#three {
+  position: absolute;
+  left: 52.97%;
+  right: 29.19%;
+  top: 72.79%;
+  bottom: 16.23%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#two {
+  position: absolute;
+  left: 29.19%;
+  right: 52.97%;
+  top: 72.79%;
+  bottom: 16.23%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+/* button one */
+
+#one {
+  position: absolute;
+  left: 5.41%;
+  right: 76.76%;
+  top: 72.79%;
+  bottom: 16.23%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+/* Third Line
+position: absolute;
+left: 5.41%;
+right: 5.41%;
+top: 59.06%;
+bottom: 29.96%;*/
+
+#add {
+  position: absolute;
+  left: 76.76%;
+  right: 5.41%;
+  top: 59.06%;
+  bottom: 29.96%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#six {
+  position: absolute;
+  left: 52.97%;
+  right: 29.19%;
+  top: 59.06%;
+  bottom: 29.96%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#five {
+  position: absolute;
+  left: 29.19%;
+  right: 52.97%;
+  top: 59.06%;
+  bottom: 29.96%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#four {
+  position: absolute;
+  left: 5.41%;
+  right: 76.76%;
+  top: 59.06%;
+  bottom: 29.96%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+/* Second Line
+
+position: absolute;
+left: 5.41%;
+right: 5.41%;
+top: 45.33%;
+bottom: 43.68%;*/
+
+#subtract {
+  position: absolute;
+  left: 76.76%;
+  right: 5.41%;
+  top: 45.33%;
+  bottom: 43.68%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#nine {
+  position: absolute;
+  left: 52.97%;
+  right: 29.19%;
+  top: 45.33%;
+  bottom: 43.68%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#eight {
+  position: absolute;
+  left: 29.19%;
+  right: 52.97%;
+  top: 45.33%;
+  bottom: 43.68%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#seven {
+  position: absolute;
+  left: 5.41%;
+  right: 76.76%;
+  top: 45.33%;
+  bottom: 43.68%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+/* First Line
+position: absolute;
+left: 5.41%;
+right: 5.41%;
+top: 31.05%;
+bottom: 57.96%;*/
+
+#multiply {
+  position: absolute;
+  left: 76.76%;
+  right: 5.41%;
+  top: 31.05%;
+  bottom: 57.96%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#divide {
+  position: absolute;
+  left: 52.97%;
+  right: 29.19%;
+  top: 31.05%;
+  bottom: 57.96%;
+  background: #665757;
+  border-radius: 10px;
+}
+
+#ce {
+  position: absolute;
+  left: 29.19%;
+  right: 52.97%;
+  top: 31.05%;
+  bottom: 57.96%;
+  background: #E02626;
+  border-radius: 10px;
+}
+
+#ac {
+  position: absolute;
+  left: 5.41%;
+  right: 76.76%;
+  top: 31.05%;
+  bottom: 57.96%;
+  background: #E02626;
+  border-radius: 10px;
+}

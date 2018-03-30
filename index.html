@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript CALCULATOR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Nova+Square" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div id="calculator" class="container">
+      <div id="logobox">
+        <p id="logo">Digital Calculator</p>
+      </div>
+      <div id="display">
+        <div id="entry">0</div>
+        <div id="history"></div>
+      </div>
+      <button id="ac" class="button" onclick="CALCULATOR.action('ac')">AC
+      <button id="ce" class = "button" onclick = "CALCULATOR.action('ce')">CE
+      <button id="divide" class = "button" onclick = "CALCULATOR.action('divide')">&divide;
+      <button id="multiply" class = "button" onclick = "CALCULATOR.action('multiply')">X
+      <button id="seven" class = "button" onclick = "CALCULATOR.inNum(7)">7
+      <button id="eight" class = "button" onclick = "CALCULATOR.inNum(8)">8
+      <button id="nine" class = "button" onclick = "CALCULATOR.inNum(9)">9
+      <button id="subtract" class = "button" onclick = "CALCULATOR.action('subtract')">-
+      <button id="four" class = "button" onclick = "CALCULATOR.inNum(4)">4
+      <button id="five" class = "button" onclick = "CALCULATOR.inNum(5)">5
+      <button id="six" class = "button" onclick = "CALCULATOR.inNum(6)">6
+      <button id="add" class = "button" onclick = "CALCULATOR.action('add')">+
+      <button id="one" class = "button" onclick = "CALCULATOR.inNum(1)">1
+      <button id="two" class = "button" onclick = "CALCULATOR.inNum(2)">2
+      <button id="three" class = "button" onclick = "CALCULATOR.inNum(3)">3
+      <button id="calculate" onclick = "CALCULATOR.action('calculate')">=
+      <button id="zero" onclick = "CALCULATOR.inNum(0)">0
+      <button id="decimal" class = "button" onclick = "CALCULATOR.action('decimal')">.
+    </div>
+      <script src="javascript.js"></script>
+  </body>
+
+</html>
